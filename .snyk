@@ -1,21 +1,21 @@
-custom_rules:
-  - id: 'Transaction logging'
-    description: 'Transaction logging goes to a plain text file. be careful to not include sensitive information, like credit card numbers!'
-    severity: 'low'
-    cwe:
-      - 'CWE-200'
-    fix_analysis: ''
-    rule_code: 'Taint<PRED:Any, PRED:None, ~".*logTransaction.*">'
-    languages:
-      - 'apex'
-      - 'c'
-      - 'cpp'
-      - 'csharp'
-      - 'go'
-      - 'java'
-      - 'javascript'
-      - 'php'
-      - 'python'
-      - 'ruby'
-      - 'typescript'
+#custom_rules:
+#  - id: 'Transaction logging'
+#    description: 'Transaction logging goes to a plain text file. be careful to not include sensitive information, like credit card numbers!'
+#    severity: 'low'
+#    cwe:
+#      - 'CWE-200'
+#    fix_analysis: ''
+#    rule_code: 'Taint<PRED:Any, PRED:None, ~".*logTransaction.*">'
+#    languages:
+#      - 'apex'
+#      - 'c'
+#      - 'cpp'
+#      - 'csharp'
+#      - 'go'
+#      - 'java'
+#      - 'javascript'
+#      - 'php'
+#      - 'python'
+#      - 'ruby'
+#      - 'typescript'
       
